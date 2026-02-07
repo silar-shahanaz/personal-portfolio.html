@@ -1,0 +1,44 @@
+body{
+font-family: Arial, Sans-serif;
+margin: 0;
+background: green;
+color:#333;
+}
+
+.container{
+width: 350px;
+margin: 50px auto;
+background: white;
+padding: 20px;
+border-radius:8px;
+}
+h1{
+text-align: center;
+}
+
+.input-box{
+display: flex;
+gap: 10px;
+}
+
+button{
+padding: 8px 12px;
+background-color: red;
+border: none;
+cursor: pointer;
+}
+
+button:hover{
+background-color: blue;
+}
+ul{
+list-style:none;
+padding: 0;
+}
+li{
+background: #eee;
+padding: 8px;
+margin-top: 10px;
+display: flex;
+}
+

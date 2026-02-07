@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+nav {
+  background: #111;
+  color: #fff;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  margin-top:75px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.section {
+  padding: 100px 50px;
+  min-height: 100vh;
+}
+
+.home {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home span {
+  color: #007BFF;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.project-container {
+  display: flex;
+  gap: 70px;
+  margin-top: 70px;
+}
+
+.project-card {
+  background: #ddd;
+  padding: 30px;
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 400px;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
