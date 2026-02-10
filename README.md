@@ -20,22 +20,16 @@ This project helps users manage daily tasks efficiently by allowing them to add 
 - **HTML5** – Structure of the application  
 - **CSS3** – Styling and layout  
 - **JavaScript (ES6)** – Application logic and interactivity  
-
----
-
-## 📂 Project Structure
-
-
 ---
 
 ## ▶️ How to Run the Project
 
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-username/task-manager.git
+   git clone https://github.com/silar-shahanaz/task-manager.git
 2. Open the project folder.
 
-3 .Double-click index.html
+3 .Double-click task-manager.html
    OR open it in any modern web browser.
 
 4  Start adding and managing your tasks ✅
